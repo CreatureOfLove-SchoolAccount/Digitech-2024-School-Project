@@ -2,3 +2,24 @@ html {
   height: 100%;
   width: 100%;
 }
+.column {
+  float: left;
+  width: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 50px 50px 50px;
+  justify-items: center;
+  justify-content: center;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
